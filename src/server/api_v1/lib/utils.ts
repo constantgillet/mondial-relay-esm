@@ -1,5 +1,5 @@
 import { Args } from '../../../../types/args'
-import statusCodes from './statusCodes'
+import statusCodes from './statusCodes.js'
 
 import crypto from 'crypto'
 import * as soap from 'soap'

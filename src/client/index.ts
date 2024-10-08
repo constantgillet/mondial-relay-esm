@@ -1,2 +1,2 @@
-export { default as ParcelShopSelector } from './ParcelShopSelector'
-export * from '../both'
+export { default as ParcelShopSelector } from './ParcelShopSelector/index.js'
+export * from '../both/index.js'

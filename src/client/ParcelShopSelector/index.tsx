@@ -2,7 +2,7 @@ import React, { HTMLInputElement, useEffect, useRef } from 'react'
 
 import { ParcelShopID, ParcelShopSelected } from '../../../types/parcel-shop'
 
-import './style.css'
+import './style.css' with { type: 'css' }
 
 interface Props {
   weight?: number

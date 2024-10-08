@@ -1,5 +1,5 @@
 import { CreateShipmentResponse, ShipContext, Shipment, ShipOutputOptions } from '../../../types/ship'
-import { ShipContextSchema, ShipmentSchema, ShipOutputOptionsSchema } from './schemas'
+import { ShipContextSchema, ShipmentSchema, ShipOutputOptionsSchema } from './schemas.js'
 
 import axios from 'axios'
 import { Builder } from 'xml2js'

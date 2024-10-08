@@ -11,8 +11,8 @@ import {
   GetTrackingValues,
   SearchPointRelayValues,
   SearchZipCodesValues,
-} from './../../../types/values.d'
-import { executeApiCall } from './lib/utils'
+} from './../../../types/values.d.js'
+import { executeApiCall } from './lib/utils.js'
 
 const outputXML = false
 
