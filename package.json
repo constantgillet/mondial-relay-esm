@@ -21,7 +21,6 @@
     "demo:api_v1": "npx ts-node ./examples/api_v1/index.ts",
     "demo:create_shipment": "npx ts-node ./examples/createShipment.ts",
     "demo:price": "npx ts-node ./examples/getDeliveryPriceHT.ts",
-    "prepare": "if [[ $NODE_ENVIRONMENT != \"production\" ]]; then husky install; fi",
     "prepublishOnly": "npx tsc && npx copyfiles -f ./src/client/ParcelShopSelector/style.css ./dist/client/ParcelShopSelector"
   },
   "keywords": [
